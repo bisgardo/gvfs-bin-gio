@@ -1,0 +1,14 @@
+Package: gvfs-bin-gio
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Michael Bisgaard Olesen <michaelbisgaardo@gmail.com>
+Depends: libglib2.0-bin
+Priority: optional
+Homepage: https://github.com/bisgardo/gvfs-bin-gio
+Description: compatibility scripts for obsolete 'gvfs-*' tools
+  The tools were originally a part of the 'gvfs' project, but were obsoleted
+  by the newer tool 'gio'.  The scripts are verbatim copies from the Ubuntu
+  package 'gvfs-bin', and delegate all calls to this tool.
+  .
+  Compared to the original package, an outdated dependency and some legacy docs
+  have been removed.
